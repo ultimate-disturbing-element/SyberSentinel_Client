@@ -1,0 +1,23 @@
+{
+    "name": "Syber Sentinel",
+    "author": "Abhinav Rai",
+    "version": "1.0",
+    "description": "Syber Sentinel",
+    "icons": { "128": "extensionIcon/sybersentinel.jpg" },
+    
+    "browser_action": {
+      "default_title": "SyberSentinel",
+      "default_icon": "extensionIcon/sybersentinel.jpg",
+      "default_popup": "index.html"
+    },
+      
+    "permissions": [
+       "webRequestBlocking",
+       "webRequest",
+       "activeTab",
+       "tabs",
+       "http://*/*",
+       "https://*/*"
+    ],
+    "manifest_version": 2
+  }
