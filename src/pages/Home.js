@@ -8,7 +8,8 @@ const Home = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    let location = window.location.href;
+    // let location = window.location.href;
+    let location = 'https://aakash.ac.in/'
     let address = location.endsWith("/") ? location.slice(0, -1) : location;
 
     const addressType = determineAddressType(address);
